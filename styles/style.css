@@ -1,3 +1,25 @@
+@import url("//cdn.web-fonts.ge/fonts/bpg-classic-medium/css/bpg-classic-medium.min.css");
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    height: 100vh;
+}
+.bot {
+    margin-top: 50px;
+    background-color: purple;
+    font-size: 15px;
+    font-family: "BPG Classic Medium", sans-serif;
+    border-radius: 30px;
+    color: #cbfdfd;
+    box-shadow: 2px 2px 5px fuchsia;
+    padding: 10px 15px;
+    border: 0;
+}
+
 .heart  {
     width: 100px;
     height: 100px;
@@ -27,13 +49,6 @@
     100% {
         transform: scale(1) rotate(45deg);
     }
-}
-body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: black;
-    height: 100vh;
 }
 .heart::before {
     position: absolute;
